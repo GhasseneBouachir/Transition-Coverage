@@ -69,7 +69,7 @@ int main() {
     g.computeLanguage(g.initialNode);
 
 //"a(b(ef)*c)*d(k(go)*(ro)*m)*k"
-//    vector<string> s = PathGenerator::extractPaths("alo_(m_f_)*b_((e_h_)*(c_f_)*)*c_a_");
+    vector<string> s = PathGenerator::extractPaths("alo_(m_f_)*b_((e_h_)*(c_f_)*)*c_a_");
 //    cout << "(ab(mf)*b((eh)*(cf)*)*ca)*ek" << endl;
 //    for(int i = 0; i < s.size(); i++)
 //        std::cout << i << ": " << s[i] << endl;
