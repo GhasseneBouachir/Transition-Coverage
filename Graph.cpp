@@ -3,8 +3,10 @@
 #include <algorithm>
 #include "Graph.h"
 
+Graph::Graph() {};
 
-Graph::Graph(Node *n):initialNode(n){}
+Graph::Graph(Node *n):initialNode(n){
+}
 Graph::~Graph() = default;
 
 vector<transSeqLang> Graph::computeLanguage(Node* n){
@@ -43,15 +45,17 @@ vector<transSeqLang> Graph::computeLanguage(Node* n){
     }
     stack.pop_back();
     if(n->getId()==0){
-     if(n->getLanguages().size() == 0)
+     if(n->getLanguages().size() == 0){
          regEx = circuits;
+         n->getLanguages().push_back({circuits, NULL});
+     }
      else {
          for(transSeqLang lg: n->getLanguages()){
             regEx = regEx + lg.first + "+";
          }
          regEx.pop_back();
      }
-     cout << regEx;
+     cout << regEx << endl;
     }
     return n->getLanguages();
 };
@@ -115,95 +119,52 @@ vector<transSeqLang> Graph::getLanguage(Node* n, bool firstCall){
     return n->getLanguages();
 }
 
-//void GenerateRandomGraph
-//
-//
-//
-//
-//
-//
-//
-//
-//// A function to generate random graph.
-//void GenerateRandGraphs(int NOE, int NOV, int NOT, std::set<int> &tObs)// number of edges, vertices, transitions
-//{	//Data structure to charge graph
-//    ii tmpPair;
-//
-//    int i, j, edge[NOE][3], count;
-//    i = 0;
-//    // Build a connection between two random vertex.
-//    while(i < NOE)
-//    {
-//        edge[i][0] = rand()%NOV;
-//        edge[i][1] = rand()%NOV;
-//        edge[i][2] = rand()%NOT;
-//        // to eliminate redunduncy(repetition)
-//        if(edge[i][0] == edge[i][1])
-//            continue;
-//        else
-//        {
-//            for(j = 0; j < i; j++)
-//            {
-//                if((edge[i][0] == edge[j][0] && edge[i][1] == edge[j][1])
-//                   //|| (edge[i][0] == edge[j][1] && edge[i][1] == edge[j][0])
-//                   //to treat the case of ambiguity(d'ont leave a vertex with two edges
-//                   //that have the same transitions label
-//                   || (edge[i][0] == edge[j][0] && edge[i][2] == edge[j][2])
-//                        ){
-//                    i--;
-//                }
-//            }
-//        }
-//        i++;
-//    }
-//
-//    // Fill the adjacency List
-//    for(i = 0; i < NOV; i++)
-//    {   VisitedNodes.push_back(false);
-//        count = 0;
-//        // cout<<"\n\t"<<i<<"-> { ";
-//        for(j = 0,AdjList.push_back(vii()); j < NOE; j++)
-//        {	// if the current node is in the first place of the array
-//            //if(j==0);
-//            if(edge[j][0] == i)
-//            {	count++;
-//                // cout<< edge[j][1] << "," << edge[j][2] <<"   ";
-//                tmpPair.first = edge[j][1];
-//                tmpPair.second = edge[j][2];
-//                AdjList[i].push_back(tmpPair);
-//                tObs.insert(tmpPair.second);
-//            }// if the current node is in the second place of the array
-//                //to genrate a directed graph i comment this part
-//                /*
-//                else if(edge[j][1] == i+1)
-//                {
-//                    cout<<edge[j][0]<<"   ";
-//                    count++;
-//                }//if the current node doesn't exist in the array
-//                */
-//            else if(j == NOE-1 && count == 0)
-//            {	//For "Isolated Vertex!";
-//                //that's missing to treat the case that the random value is the current vertex
-//                tmpPair.first = rand()%NOV;
-//                tmpPair.second = rand()%NOT;
-//                AdjList[i].push_back(tmpPair);
-//                tObs.insert(tmpPair.second);
-//                // cout << rand()%NOV << "," << rand()%NOT <<"   ";
-//            }
-//        }
-//        // cout<<" }";
-//    }
-//    cout << endl;
-//}
-//
-//void printGraph(int start, int nb_vertices){
-//    cout<<"\nThe generated random graph is: ";
-//    for(int i=start; i<nb_vertices; i++){
-//        cout<<"\n\t"<<i<<"-> { ";
-//        for(auto v = AdjList[i].begin(); v != AdjList[i].end();++v){
-//            cout << v->first << "," << v->second << "	";
-//        }
-//        cout<<" }";
-//    }
-//    cout << endl;
-//}
+string RandomString(int ch)
+{   //number of alphabetic characters
+    const int ch_max = 26;
+    char alpha[ch_max] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g',
+                           'h', 'i', 'j', 'k', 'l', 'm', 'n',
+                           'o', 'p', 'q', 'r', 's', 't', 'u',
+                           'v', 'w', 'x', 'y', 'z' };
+    string result = "";
+    for (int i = 0; i<ch; i++)
+        result = result + alpha[rand() % ch_max];
+
+    return result;
+}
+
+
+
+// NOV: number of vertices
+void Graph::generateRandomGraph(int NOV ){
+    for(int i=0; i<NOV;i++){
+        Node * n = new Node(i);
+        this->states.push_back(n);
+    }
+    trNode t;
+    int countEdges;
+    for(int i=0; i<NOV;i++){
+        for(int j=0; j<rand()%5;j++){
+            t.first= RandomString(2).append("_");
+            t.second=this->states[rand()%NOV];
+            this->states[i]->getSuccessors().push_back(t);
+            countEdges++;
+        }
+    }
+    this->initialNode = this->states[0];
+}
+
+void Graph::printGraph() {
+    cout<<"\nThe generated random graph is: ";
+    for(int i=0; i<this->states.size(); i++){
+        cout<<"\n\t"<<i<<"-> { ";
+        for(auto v :this->states[i]->getSuccessors()){
+            cout << v.first << "," << v.second->getId() << "	";
+        }
+        cout<<" }";
+    }
+    cout << endl;
+}
+
+
+

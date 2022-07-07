@@ -7,14 +7,15 @@
 #include <vector>
 #include<string>
 #include<set>
+#include<map>
 
-using namespace std;
 
 class Node;
 typedef std::set<int> Tas;
 typedef  std::vector<int> Stack;
-typedef string transitionSequence;
-typedef pair<transitionSequence,Node*> transSeqLang;
+typedef std::string transitionSequence;
+typedef std::pair<transitionSequence,Node*> transSeqLang;
+
 
 
 class Graph {
@@ -23,14 +24,19 @@ private:
 
 public:
     Node* initialNode;
+    std::vector<Node *> states;
     inline static Stack stack;
     inline static Tas tas;
+    std::map<std::string, int> transitions;
 
+    Graph();
     Graph(Node *initialNode);
     virtual ~Graph();
-    vector<transSeqLang> computeLanguage(Node* n);
-    vector<transSeqLang> getLanguage(Node* n, bool firstCall);
-    void GenerateRandomGraph(int NOE, int NOV, int NOT);
+    std::vector<transSeqLang> computeLanguage(Node* n);
+    std::vector<transSeqLang> getLanguage(Node* n, bool firstCall);
+    void generateRandomGraph(int NOV);
+    void printGraph();
+
 
 
 

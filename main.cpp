@@ -4,74 +4,94 @@
 #include "PathGenerator.h"
 
 int main() {
-    vector<Node*> v;
-    for(int i=0; i<9;i++){
-        Node * n = new Node(i);
-        v.push_back(n);
-    }
-    trNode t;
-    //0
-    t.first="alo_";
-    t.second=v[1];
-    v[0]->getSuccessors().push_back(t);
-    t.first="z_";
-    t.second=v[8];
-    v[0]->getSuccessors().push_back(t);
-    //1
-    t.first="b_";
-    t.second=v[2];
-    v[1]->getSuccessors().push_back(t);
-    t.first="m_";
-    t.second=v[5];
-    v[1]->getSuccessors().push_back(t);
-    //2
-    t.first="e_";
-    t.second=v[6];
-    v[2]->getSuccessors().push_back(t);
-    t.first="c_";
-    t.second=v[3];
-    v[2]->getSuccessors().push_back(t);
-    //3
-    t.first="f_";
-    t.second=v[2];
-    v[3]->getSuccessors().push_back(t);
-    t.first="a_";
-    t.second=v[0];
-    v[3]->getSuccessors().push_back(t);
-    t.first="d_";
-    t.second=v[4];
-    v[3]->getSuccessors().push_back(t);
-    //4
-    //empty
-
-    //5
-    t.first="f_";
-    t.second=v[1];
-    v[5]->getSuccessors().push_back(t);
-
-    //6
-    t.first="h_";
-    t.second=v[2];
-    v[6]->getSuccessors().push_back(t);
-    t.first="k_";
-    t.second=v[7];
-    v[6]->getSuccessors().push_back(t);
-
-    //7
-    //empty
-
-    //8
-    t.first="h_";
-    t.second=v[3];
-    v[8]->getSuccessors().push_back(t);
-
-    Graph g(v[0]);
-    g.computeLanguage(g.initialNode);
+    //Manual generation
+//    vector<Node*> v;
+//    for(int i=0; i<9;i++){
+//        Node * n = new Node(i);
+//        v.push_back(n);
+//    }
+//    trNode t;
+//    //0
+//    t.first="alo_";
+//    t.second=v[1];
+//    v[0]->getSuccessors().push_back(t);
+//    t.first="z_";
+//    t.second=v[8];
+//    v[0]->getSuccessors().push_back(t);
+//    //1
+//    t.first="b_";
+//    t.second=v[2];
+//    v[1]->getSuccessors().push_back(t);
+//    t.first="m_";
+//    t.second=v[5];
+//    v[1]->getSuccessors().push_back(t);
+//    //2
+//    t.first="e_";
+//    t.second=v[6];
+//    v[2]->getSuccessors().push_back(t);
+//    t.first="c_";
+//    t.second=v[3];
+//    v[2]->getSuccessors().push_back(t);
+//    //3
+//    t.first="f_";
+//    t.second=v[2];
+//    v[3]->getSuccessors().push_back(t);
+//    t.first="a_";
+//    t.second=v[0];
+//    v[3]->getSuccessors().push_back(t);
+//    t.first="d_";
+//    t.second=v[4];
+//    v[3]->getSuccessors().push_back(t);
+//    //4
+//    //empty
+//
+//    //5
+//    t.first="f_";
+//    t.second=v[1];
+//    v[5]->getSuccessors().push_back(t);
+//
+//    //6
+//    t.first="h_";
+//    t.second=v[2];
+//    v[6]->getSuccessors().push_back(t);
+//    t.first="k_";
+//    t.second=v[7];
+//    v[6]->getSuccessors().push_back(t);
+//
+//    //7
+//    //empty
+//
+//    //8
+//    t.first="h_";
+//    t.second=v[3];
+//    v[8]->getSuccessors().push_back(t);
+//
+//    Graph g(v[0]);
+//    g.computeLanguage(g.initialNode);
 
 //"a(b(ef)*c)*d(k(go)*(ro)*m)*k"
-    vector<string> s = PathGenerator::extractPaths("alo_(m_f_)*b_((e_h_)*(c_f_)*)*c_a_");
+//    vector<string> s = PathGenerator::extractPaths("alo_(m_f_)*b_((e_h_)*(c_f_)*)*c_a_");
 //    cout << "(ab(mf)*b((eh)*(cf)*)*ca)*ek" << endl;
 //    for(int i = 0; i < s.size(); i++)
 //        std::cout << i << ": " << s[i] << endl;
+
+
+    Graph g;
+    // Generate Random Graph with number of vertices
+    g.generateRandomGraph(10);
+    // print generated Graph
+    g.printGraph();
+    // vector of generated paths
+    vector<string> generatedPaths;
+    // generate regex of graph by computing the language of initial node
+    g.computeLanguage(g.initialNode);
+    // Extract paths from generated regex
+    for(auto p: g.initialNode->getLanguages()){
+        vector<string> temPaths = PathGenerator::extractPaths(p.first);
+        generatedPaths.insert(end(generatedPaths), begin(temPaths), end(temPaths));
+    }
+    // Print all generated paths
+    for(int i = 0; i < generatedPaths.size(); i++)
+        std::cout << i << ": " << generatedPaths[i] << endl;
     return 0;
 }
