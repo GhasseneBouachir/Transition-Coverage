@@ -55,7 +55,7 @@ vector<transSeqLang> Graph::computeLanguage(Node* n){
          }
          regEx.pop_back();
      }
-     cout << regEx << endl;
+//     cout << regEx << endl;
     }
     return n->getLanguages();
 };

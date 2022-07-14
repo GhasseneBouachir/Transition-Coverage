@@ -1,0 +1,55 @@
+    //0
+    t.first="alo_";
+    t.second=g.states[1];
+    g.states[0]->getSuccessors().push_back(t);
+    g.initialNode = g.states[0];
+    t.first="z_";
+    t.second=g.states[8];
+    g.states[0]->getSuccessors().push_back(t);
+    //1
+    t.first="b_";
+    t.second=g.states[2];
+    g.states[1]->getSuccessors().push_back(t);
+    t.first="m_";
+    t.second=g.states[5];
+    g.states[1]->getSuccessors().push_back(t);
+    //2
+    t.first="e_";
+    t.second=g.states[6];
+    g.states[2]->getSuccessors().push_back(t);
+    t.first="c_";
+    t.second=g.states[3];
+    g.states[2]->getSuccessors().push_back(t);
+    //3
+    t.first="f_";
+    t.second=g.states[2];
+    g.states[3]->getSuccessors().push_back(t);
+    t.first="a_";
+    t.second=g.states[0];
+    g.states[3]->getSuccessors().push_back(t);
+    t.first="d_";
+    t.second=g.states[4];
+    g.states[3]->getSuccessors().push_back(t);
+    //4
+    //empty
+
+    //5
+    t.first="f_";
+    t.second=g.states[1];
+    g.states[5]->getSuccessors().push_back(t);
+
+    //6
+    t.first="h_";
+    t.second=g.states[2];
+    g.states[6]->getSuccessors().push_back(t);
+    t.first="k_";
+    t.second=g.states[7];
+    g.states[6]->getSuccessors().push_back(t);
+
+    //7
+    //empty
+
+    //8
+    t.first="h_";
+    t.second=g.states[3];
+    g.states[8]->getSuccessors().push_back(t);

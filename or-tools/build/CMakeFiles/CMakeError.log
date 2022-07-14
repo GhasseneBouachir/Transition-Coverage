@@ -1,0 +1,347 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_16e35/fast && /usr/bin/make  -f CMakeFiles/cmTC_16e35.dir/build.make CMakeFiles/cmTC_16e35.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16e35.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_16e35.dir/src.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_16e35
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16e35.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_16e35.dir/src.c.o -o cmTC_16e35 
+/usr/bin/ld: CMakeFiles/cmTC_16e35.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_16e35.dir/build.make:99: cmTC_16e35] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_16e35/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f2a7/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f2a7.dir/build.make CMakeFiles/cmTC_0f2a7.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f2a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_0f2a7.dir/CheckFunctionExists.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f2a7
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f2a7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0f2a7.dir/CheckFunctionExists.c.o -o cmTC_0f2a7  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0f2a7.dir/build.make:99: cmTC_0f2a7] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_0f2a7/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_42cf5/fast && /usr/bin/make  -f CMakeFiles/cmTC_42cf5.dir/build.make CMakeFiles/cmTC_42cf5.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42cf5.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE   -Wshorten-64-to-32 -o CMakeFiles/cmTC_42cf5.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_42cf5.dir/build.make:78: CMakeFiles/cmTC_42cf5.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_42cf5/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d63e/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d63e.dir/build.make CMakeFiles/cmTC_8d63e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d63e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE   -Wenum-conversion -o CMakeFiles/cmTC_8d63e.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+make[1]: *** [CMakeFiles/cmTC_8d63e.dir/build.make:78: CMakeFiles/cmTC_8d63e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_8d63e/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c89a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_c89a0.dir/build.make CMakeFiles/cmTC_c89a0.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c89a0.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE   -Wc++11-extensions -o CMakeFiles/cmTC_c89a0.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+make[1]: *** [CMakeFiles/cmTC_c89a0.dir/build.make:78: CMakeFiles/cmTC_c89a0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_c89a0/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24fac/fast && /usr/bin/make  -f CMakeFiles/cmTC_24fac.dir/build.make CMakeFiles/cmTC_24fac.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24fac.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd981 -o CMakeFiles/cmTC_24fac.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+make[1]: *** [CMakeFiles/cmTC_24fac.dir/build.make:78: CMakeFiles/cmTC_24fac.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_24fac/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2a5fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_2a5fc.dir/build.make CMakeFiles/cmTC_2a5fc.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a5fc.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd2304 -o CMakeFiles/cmTC_2a5fc.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_2a5fc.dir/build.make:78: CMakeFiles/cmTC_2a5fc.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_2a5fc/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8caf9/fast && /usr/bin/make  -f CMakeFiles/cmTC_8caf9.dir/build.make CMakeFiles/cmTC_8caf9.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8caf9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -strict-ansi -o CMakeFiles/cmTC_8caf9.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+make[1]: *** [CMakeFiles/cmTC_8caf9.dir/build.make:78: CMakeFiles/cmTC_8caf9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_8caf9/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5eb3d/fast && /usr/bin/make  -f CMakeFiles/cmTC_5eb3d.dir/build.make CMakeFiles/cmTC_5eb3d.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5eb3d.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -Qunused-arguments -o CMakeFiles/cmTC_5eb3d.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+make[1]: *** [CMakeFiles/cmTC_5eb3d.dir/build.make:78: CMakeFiles/cmTC_5eb3d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_5eb3d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Looking for a Fortran compiler failed with the following output:
+-- The Fortran compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "FC" or the CMake cache entry CMAKE_Fortran_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/eigen3-build/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+See also "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/eigen3-build/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeError.log".
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8fa4e/fast && /usr/bin/make  -f CMakeFiles/cmTC_8fa4e.dir/build.make CMakeFiles/cmTC_8fa4e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fa4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_8fa4e.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ieeefp.h: No such file or directory
+    1 | #include <ieeefp.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_8fa4e.dir/build.make:78: CMakeFiles/cmTC_8fa4e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_8fa4e/fast] Error 2
+
+
+
+Determining if the include file cieeefp exists failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85722/fast && /usr/bin/make  -f CMakeFiles/cmTC_85722.dir/build.make CMakeFiles/cmTC_85722.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85722.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_85722.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: cieeefp: No such file or directory
+    1 | #include <cieeefp>
+      |          ^~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_85722.dir/build.make:78: CMakeFiles/cmTC_85722.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_85722/fast] Error 2
+
+
+
+Determining if the isfinite exist failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0d2d0/fast && /usr/bin/make  -f CMakeFiles/cmTC_0d2d0.dir/build.make CMakeFiles/cmTC_0d2d0.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d2d0.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_0d2d0.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:11:18: error: address of overloaded function with no contextual type information
+   11 |   return ((int*)(&isfinite))[argc];
+      |                 ~^~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_0d2d0.dir/build.make:78: CMakeFiles/cmTC_0d2d0.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_0d2d0/fast] Error 2
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _finite exist failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_806dc/fast && /usr/bin/make  -f CMakeFiles/cmTC_806dc.dir/build.make CMakeFiles/cmTC_806dc.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_806dc.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_806dc.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:11:19: error: ‘_finite’ was not declared in this scope; did you mean ‘__finite’?
+   11 |   return ((int*)(&_finite))[argc];
+      |                   ^~~~~~~
+      |                   __finite
+make[1]: *** [CMakeFiles/cmTC_806dc.dir/build.make:78: CMakeFiles/cmTC_806dc.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_806dc/fast] Error 2
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6e38a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6e38a.dir/build.make CMakeFiles/cmTC_6e38a.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e38a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_6e38a.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:11:18: error: address of overloaded function with no contextual type information
+   11 |   return ((int*)(&isnan))[argc];
+      |                 ~^~~~~~~
+make[1]: *** [CMakeFiles/cmTC_6e38a.dir/build.make:78: CMakeFiles/cmTC_6e38a.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_6e38a/fast] Error 2
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _isnan exist failed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_64b4c/fast && /usr/bin/make  -f CMakeFiles/cmTC_64b4c.dir/build.make CMakeFiles/cmTC_64b4c.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64b4c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_64b4c.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:11:19: error: ‘_isnan’ was not declared in this scope; did you mean ‘__isnan’?
+   11 |   return ((int*)(&_isnan))[argc];
+      |                   ^~~~~~
+      |                   __isnan
+make[1]: *** [CMakeFiles/cmTC_64b4c.dir/build.make:78: CMakeFiles/cmTC_64b4c.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_64b4c/fast] Error 2
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

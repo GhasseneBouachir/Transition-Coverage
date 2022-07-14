@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools
+# Build directory: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("dependencies")
+subdirs("ortools/algorithms")
+subdirs("ortools/base")
+subdirs("ortools/bop")
+subdirs("ortools/constraint_solver")
+subdirs("ortools/pdlp")
+subdirs("ortools/gscip")
+subdirs("ortools/glop")
+subdirs("ortools/graph")
+subdirs("ortools/gurobi")
+subdirs("ortools/init")
+subdirs("ortools/linear_solver")
+subdirs("ortools/lp_data")
+subdirs("ortools/packing")
+subdirs("ortools/port")
+subdirs("ortools/sat")
+subdirs("ortools/scheduling")
+subdirs("ortools/util")
+subdirs("ortools/model_builder/wrappers")
+subdirs("ortools/algorithms/samples")
+subdirs("ortools/graph/samples")
+subdirs("ortools/linear_solver/samples")
+subdirs("ortools/constraint_solver/samples")
+subdirs("ortools/sat/samples")
+subdirs("examples/contrib")
+subdirs("examples/cpp")
+subdirs("examples/python")
+subdirs("examples/java")
+subdirs("examples/dotnet")
+subdirs("examples/tests")

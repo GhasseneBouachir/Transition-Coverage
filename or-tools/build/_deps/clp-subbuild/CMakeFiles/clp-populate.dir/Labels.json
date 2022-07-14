@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/CMakeFiles/clp-populate"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/CMakeFiles/clp-populate.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/CMakeFiles/clp-populate-complete.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-build.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-configure.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-download.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-install.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-patch.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/clp-subbuild/clp-populate-prefix/src/clp-populate-stamp/clp-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"clp-populate"
+		],
+		"name" : "clp-populate"
+	}
+}

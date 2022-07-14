@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libOsiClp.a CMakeFiles/OsiClp.dir/src/OsiClp/OsiClpSolverInterface.cpp.o
+/usr/bin/ranlib ../../../lib/libOsiClp.a

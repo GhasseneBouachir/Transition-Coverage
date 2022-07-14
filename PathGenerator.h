@@ -4,6 +4,7 @@
 
 #ifndef IMPLEM_PATHGENERATOR_H
 #define IMPLEM_PATHGENERATOR_H
+#include <iostream>
 #include <vector>
 #include <string>
 #include <utility>

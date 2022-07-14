@@ -1,0 +1,12 @@
+prefix=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools
+exec_prefix=${prefix}
+libdir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib
+includedir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/include
+
+Name: absl_errno_saver
+Description: Abseil errno_saver library
+URL: https://abseil.io/
+Version: 20211102
+Requires: absl_config = 20211102
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

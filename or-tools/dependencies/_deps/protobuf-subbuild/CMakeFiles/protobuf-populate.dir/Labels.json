@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate-complete.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-build.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-configure.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-download.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-install.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-patch.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"protobuf-populate"
+		],
+		"name" : "protobuf-populate"
+	}
+}

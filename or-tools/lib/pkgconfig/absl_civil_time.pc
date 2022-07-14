@@ -1,0 +1,12 @@
+prefix=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools
+exec_prefix=${prefix}
+libdir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib
+includedir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/include
+
+Name: absl_civil_time
+Description: Abseil civil_time library
+URL: https://abseil.io/
+Version: 20211102
+Requires:
+Libs: -L${libdir}  -labsl_civil_time
+Cflags: -I${includedir} -DNOMINMAX

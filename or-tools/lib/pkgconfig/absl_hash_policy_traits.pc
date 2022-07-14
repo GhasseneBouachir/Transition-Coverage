@@ -1,0 +1,12 @@
+prefix=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools
+exec_prefix=${prefix}
+libdir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib
+includedir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/include
+
+Name: absl_hash_policy_traits
+Description: Abseil hash_policy_traits library
+URL: https://abseil.io/
+Version: 20211102
+Requires: absl_meta = 20211102
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

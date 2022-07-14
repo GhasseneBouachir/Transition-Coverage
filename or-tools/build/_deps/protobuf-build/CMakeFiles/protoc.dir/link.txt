@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o -o ../../bin/protoc-3.19.4.0  -Wl,-rpath,"\$ORIGIN/../lib" ../../lib/libprotoc.a ../../lib/libprotobuf.a -lpthread ../../lib/libz.a 

@@ -1,0 +1,1679 @@
+The system is: Linux - 5.13.0-52-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/3.22.5/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/3.22.5/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95a62/fast && /usr/bin/make  -f CMakeFiles/cmTC_95a62.dir/build.make CMakeFiles/cmTC_95a62.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccBNbydy.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBNbydy.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_95a62
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95a62.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_95a62 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95a62' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHGE6hX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_95a62 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95a62' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_95a62/fast && /usr/bin/make  -f CMakeFiles/cmTC_95a62.dir/build.make CMakeFiles/cmTC_95a62.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccBNbydy.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBNbydy.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_95a62]
+  ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95a62.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_95a62 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95a62' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHGE6hX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_95a62 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHGE6hX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_95a62] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_95a62.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12505/fast && /usr/bin/make  -f CMakeFiles/cmTC_12505.dir/build.make CMakeFiles/cmTC_12505.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccegJxHu.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o /tmp/ccegJxHu.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_12505
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12505.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -o cmTC_12505 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12505' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKxF9LU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_12505 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12505' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_12505/fast && /usr/bin/make  -f CMakeFiles/cmTC_12505.dir/build.make CMakeFiles/cmTC_12505.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccegJxHu.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o /tmp/ccegJxHu.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_12505]
+  ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12505.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -o cmTC_12505 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12505' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKxF9LU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_12505 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKxF9LU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_12505] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_12505.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8f88/fast && /usr/bin/make  -f CMakeFiles/cmTC_f8f88.dir/build.make CMakeFiles/cmTC_f8f88.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8f88.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f8f88.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f8f88
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f88.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f8f88.dir/CheckIncludeFile.c.o -o cmTC_f8f88 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c2cb/fast && /usr/bin/make  -f CMakeFiles/cmTC_2c2cb.dir/build.make CMakeFiles/cmTC_2c2cb.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c2cb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_2c2cb.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2c2cb
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c2cb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2c2cb.dir/CheckIncludeFile.c.o -o cmTC_2c2cb 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1fb1/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1fb1.dir/build.make CMakeFiles/cmTC_b1fb1.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1fb1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b1fb1.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b1fb1
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1fb1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b1fb1.dir/CheckIncludeFile.c.o -o cmTC_b1fb1 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d2f6/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d2f6.dir/build.make CMakeFiles/cmTC_6d2f6.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d2f6.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fPIE -o CMakeFiles/cmTC_6d2f6.dir/OFF64_T.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_6d2f6
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d2f6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_6d2f6.dir/OFF64_T.c.o -o cmTC_6d2f6 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e05dc/fast && /usr/bin/make  -f CMakeFiles/cmTC_e05dc.dir/build.make CMakeFiles/cmTC_e05dc.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e05dc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -fPIE -o CMakeFiles/cmTC_e05dc.dir/CheckFunctionExists.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e05dc
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e05dc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko -rdynamic CMakeFiles/cmTC_e05dc.dir/CheckFunctionExists.c.o -o cmTC_e05dc 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5bf97/fast && /usr/bin/make  -f CMakeFiles/cmTC_5bf97.dir/build.make CMakeFiles/cmTC_5bf97.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bf97.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_5bf97.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5bf97
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bf97.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5bf97.dir/CheckIncludeFile.c.o -o cmTC_5bf97 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_863cb/fast && /usr/bin/make  -f CMakeFiles/cmTC_863cb.dir/build.make CMakeFiles/cmTC_863cb.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_863cb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_863cb.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_863cb
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_863cb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_863cb.dir/CheckIncludeFile.c.o -o cmTC_863cb 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3944e/fast && /usr/bin/make  -f CMakeFiles/cmTC_3944e.dir/build.make CMakeFiles/cmTC_3944e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3944e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_3944e.dir/CheckFunctionExists.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3944e
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3944e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_3944e.dir/CheckFunctionExists.c.o -o cmTC_3944e  -lpthread 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test protobuf_HAVE_BUILTIN_ATOMICS succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6b491/fast && /usr/bin/make  -f CMakeFiles/cmTC_6b491.dir/build.make CMakeFiles/cmTC_6b491.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6b491.dir/src.cxx.o
+/usr/bin/c++ -Dprotobuf_HAVE_BUILTIN_ATOMICS  -std=c++11 -fPIE -o CMakeFiles/cmTC_6b491.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b491
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b491.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -rdynamic CMakeFiles/cmTC_6b491.dir/src.cxx.o -o cmTC_6b491 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include <atomic>
+    int main() {
+      return std::atomic<int64_t>{};
+    }
+  
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cbf72/fast && /usr/bin/make  -f CMakeFiles/cmTC_cbf72.dir/build.make CMakeFiles/cmTC_cbf72.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cbf72.dir/src.cxx.o
+/usr/bin/c++ -DEIGEN_COMPILER_SUPPORT_CPP11  -fPIE   -std=c++11 -o CMakeFiles/cmTC_cbf72.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cbf72
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbf72.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_cbf72.dir/src.cxx.o -o cmTC_cbf72 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8b61/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8b61.dir/build.make CMakeFiles/cmTC_b8b61.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8b61.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_std=cpp03  -fPIE   -std=c++03 -o CMakeFiles/cmTC_b8b61.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8b61
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8b61.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_b8b61.dir/src.cxx.o -o cmTC_b8b61 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9e106/fast && /usr/bin/make  -f CMakeFiles/cmTC_9e106.dir/build.make CMakeFiles/cmTC_9e106.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9e106.dir/src.cxx.o
+/usr/bin/c++ -Dstandard_math_library_linked_to_automatically  -std=c++03  -fPIE -o CMakeFiles/cmTC_9e106.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9e106
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e106.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03  -rdynamic CMakeFiles/cmTC_9e106.dir/src.cxx.o -o cmTC_9e106 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46e2f/fast && /usr/bin/make  -f CMakeFiles/cmTC_46e2f.dir/build.make CMakeFiles/cmTC_46e2f.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46e2f.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_WERROR  -std=c++03  -fPIE   -Werror -o CMakeFiles/cmTC_46e2f.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46e2f
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e2f.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03  -rdynamic CMakeFiles/cmTC_46e2f.dir/src.cxx.o -o cmTC_46e2f 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4466c/fast && /usr/bin/make  -f CMakeFiles/cmTC_4466c.dir/build.make CMakeFiles/cmTC_4466c.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4466c.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_pedantic  -std=c++03 -Werror -fPIE   -pedantic -o CMakeFiles/cmTC_4466c.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4466c
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4466c.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -Werror -rdynamic CMakeFiles/cmTC_4466c.dir/src.cxx.o -o cmTC_4466c 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_080ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_080ac.dir/build.make CMakeFiles/cmTC_080ac.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_080ac.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wall  -std=c++03 -pedantic -Werror -fPIE   -Wall -o CMakeFiles/cmTC_080ac.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_080ac
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080ac.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Werror -rdynamic CMakeFiles/cmTC_080ac.dir/src.cxx.o -o cmTC_080ac 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_28582/fast && /usr/bin/make  -f CMakeFiles/cmTC_28582.dir/build.make CMakeFiles/cmTC_28582.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28582.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wextra  -std=c++03 -pedantic -Wall -Werror -fPIE   -Wextra -o CMakeFiles/cmTC_28582.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28582
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28582.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Werror -rdynamic CMakeFiles/cmTC_28582.dir/src.cxx.o -o cmTC_28582 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ba11/fast && /usr/bin/make  -f CMakeFiles/cmTC_9ba11.dir/build.make CMakeFiles/cmTC_9ba11.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ba11.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wundef  -std=c++03 -pedantic -Wall -Wextra -Werror -fPIE   -Wundef -o CMakeFiles/cmTC_9ba11.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9ba11
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ba11.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Werror -rdynamic CMakeFiles/cmTC_9ba11.dir/src.cxx.o -o cmTC_9ba11 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dcfdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_dcfdf.dir/build.make CMakeFiles/cmTC_dcfdf.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcfdf.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcastalign  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -fPIE   -Wcast-align -o CMakeFiles/cmTC_dcfdf.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dcfdf
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcfdf.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -rdynamic CMakeFiles/cmTC_dcfdf.dir/src.cxx.o -o cmTC_dcfdf 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0fb51/fast && /usr/bin/make  -f CMakeFiles/cmTC_0fb51.dir/build.make CMakeFiles/cmTC_0fb51.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0fb51.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcharsubscripts  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -fPIE   -Wchar-subscripts -o CMakeFiles/cmTC_0fb51.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0fb51
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fb51.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -rdynamic CMakeFiles/cmTC_0fb51.dir/src.cxx.o -o cmTC_0fb51 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f7c81/fast && /usr/bin/make  -f CMakeFiles/cmTC_f7c81.dir/build.make CMakeFiles/cmTC_f7c81.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7c81.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -fPIE   -Wnon-virtual-dtor -o CMakeFiles/cmTC_f7c81.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f7c81
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c81.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -rdynamic CMakeFiles/cmTC_f7c81.dir/src.cxx.o -o cmTC_f7c81 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3bd68/fast && /usr/bin/make  -f CMakeFiles/cmTC_3bd68.dir/build.make CMakeFiles/cmTC_3bd68.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bd68.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -fPIE   -Wunused-local-typedefs -o CMakeFiles/cmTC_3bd68.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3bd68
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd68.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -rdynamic CMakeFiles/cmTC_3bd68.dir/src.cxx.o -o cmTC_3bd68 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_15b2e/fast && /usr/bin/make  -f CMakeFiles/cmTC_15b2e.dir/build.make CMakeFiles/cmTC_15b2e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15b2e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wpointerarith  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_15b2e.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_15b2e
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15b2e.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -rdynamic CMakeFiles/cmTC_15b2e.dir/src.cxx.o -o cmTC_15b2e 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1a66/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1a66.dir/build.make CMakeFiles/cmTC_b1a66.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1a66.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wwritestrings  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -fPIE   -Wwrite-strings -o CMakeFiles/cmTC_b1a66.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1a66
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1a66.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -rdynamic CMakeFiles/cmTC_b1a66.dir/src.cxx.o -o cmTC_b1a66 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2816/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2816.dir/build.make CMakeFiles/cmTC_e2816.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2816.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wformatsecurity  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -fPIE   -Wformat-security -o CMakeFiles/cmTC_e2816.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2816
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2816.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -rdynamic CMakeFiles/cmTC_e2816.dir/src.cxx.o -o cmTC_e2816 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52d57/fast && /usr/bin/make  -f CMakeFiles/cmTC_52d57.dir/build.make CMakeFiles/cmTC_52d57.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52d57.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE   -Wlogical-op -o CMakeFiles/cmTC_52d57.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52d57
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d57.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -rdynamic CMakeFiles/cmTC_52d57.dir/src.cxx.o -o cmTC_52d57 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e948f/fast && /usr/bin/make  -f CMakeFiles/cmTC_e948f.dir/build.make CMakeFiles/cmTC_e948f.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e948f.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wdoublepromotion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE   -Wdouble-promotion -o CMakeFiles/cmTC_e948f.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e948f
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e948f.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -rdynamic CMakeFiles/cmTC_e948f.dir/src.cxx.o -o cmTC_e948f 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_908a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_908a0.dir/build.make CMakeFiles/cmTC_908a0.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_908a0.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshadow  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Werror -fPIE   -Wshadow -o CMakeFiles/cmTC_908a0.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_908a0
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_908a0.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Werror -rdynamic CMakeFiles/cmTC_908a0.dir/src.cxx.o -o cmTC_908a0 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_42dc7/fast && /usr/bin/make  -f CMakeFiles/cmTC_42dc7.dir/build.make CMakeFiles/cmTC_42dc7.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42dc7.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnopsabi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Werror -fPIE   -Wno-psabi -o CMakeFiles/cmTC_42dc7.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_42dc7
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42dc7.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Werror -rdynamic CMakeFiles/cmTC_42dc7.dir/src.cxx.o -o cmTC_42dc7 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e4c09/fast && /usr/bin/make  -f CMakeFiles/cmTC_e4c09.dir/build.make CMakeFiles/cmTC_e4c09.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4c09.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Werror -fPIE   -Wno-variadic-macros -o CMakeFiles/cmTC_e4c09.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e4c09
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4c09.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Werror -rdynamic CMakeFiles/cmTC_e4c09.dir/src.cxx.o -o cmTC_e4c09 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7abe8/fast && /usr/bin/make  -f CMakeFiles/cmTC_7abe8.dir/build.make CMakeFiles/cmTC_7abe8.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7abe8.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnolonglong  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -fPIE   -Wno-long-long -o CMakeFiles/cmTC_7abe8.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7abe8
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7abe8.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -rdynamic CMakeFiles/cmTC_7abe8.dir/src.cxx.o -o cmTC_7abe8 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2e652/fast && /usr/bin/make  -f CMakeFiles/cmTC_2e652.dir/build.make CMakeFiles/cmTC_2e652.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e652.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_fnochecknew  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -fPIE   -fno-check-new -o CMakeFiles/cmTC_2e652.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2e652
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e652.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -rdynamic CMakeFiles/cmTC_2e652.dir/src.cxx.o -o cmTC_2e652 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_085ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_085ac.dir/build.make CMakeFiles/cmTC_085ac.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_085ac.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_fnocommon  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -fPIE   -fno-common -o CMakeFiles/cmTC_085ac.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_085ac
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_085ac.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -rdynamic CMakeFiles/cmTC_085ac.dir/src.cxx.o -o cmTC_085ac 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb38d/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb38d.dir/build.make CMakeFiles/cmTC_eb38d.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb38d.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_fstrictaliasing  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -fPIE   -fstrict-aliasing -o CMakeFiles/cmTC_eb38d.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eb38d
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb38d.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -rdynamic CMakeFiles/cmTC_eb38d.dir/src.cxx.o -o cmTC_eb38d 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d96c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_d96c8.dir/build.make CMakeFiles/cmTC_d96c8.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d96c8.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_ansi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -ansi -o CMakeFiles/cmTC_d96c8.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d96c8
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d96c8.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -rdynamic CMakeFiles/cmTC_d96c8.dir/src.cxx.o -o cmTC_d96c8 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3934a/fast && /usr/bin/make  -f CMakeFiles/cmTC_3934a.dir/build.make CMakeFiles/cmTC_3934a.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3934a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -fPIE   -fopenmp -o CMakeFiles/cmTC_3934a.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3934a
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3934a.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -rdynamic CMakeFiles/cmTC_3934a.dir/src.cxx.o -o cmTC_3934a 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the FE_DOWNWARD exist passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4b9b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b9b6.dir/build.make CMakeFiles/cmTC_4b9b6.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b9b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_4b9b6.dir/CheckSymbolExists.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4b9b6
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b9b6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4b9b6.dir/CheckSymbolExists.c.o -o cmTC_4b9b6 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_DOWNWARD
+  return ((int*)(&FE_DOWNWARD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df75f/fast && /usr/bin/make  -f CMakeFiles/cmTC_df75f.dir/build.make CMakeFiles/cmTC_df75f.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df75f.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_df75f.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_df75f
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df75f.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_df75f.dir/src.cxx.o -o cmTC_df75f 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6904/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6904.dir/build.make CMakeFiles/cmTC_c6904.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6904.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_c6904.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c6904
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6904.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_c6904.dir/src.cxx.o -o cmTC_c6904 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_61582/fast && /usr/bin/make  -f CMakeFiles/cmTC_61582.dir/build.make CMakeFiles/cmTC_61582.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61582.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fPIE -o CMakeFiles/cmTC_61582.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_61582
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61582.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_61582.dir/src.cxx.o -o cmTC_61582 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0b07/fast && /usr/bin/make  -f CMakeFiles/cmTC_a0b07.dir/build.make CMakeFiles/cmTC_a0b07.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0b07.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a0b07.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0b07
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b07.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a0b07.dir/CheckIncludeFile.c.o -o cmTC_a0b07 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8cf04/fast && /usr/bin/make  -f CMakeFiles/cmTC_8cf04.dir/build.make CMakeFiles/cmTC_8cf04.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cf04.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_8cf04.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8cf04
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cf04.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8cf04.dir/CheckIncludeFile.c.o -o cmTC_8cf04 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4bfca/fast && /usr/bin/make  -f CMakeFiles/cmTC_4bfca.dir/build.make CMakeFiles/cmTC_4bfca.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bfca.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_4bfca.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4bfca
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bfca.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4bfca.dir/CheckIncludeFile.c.o -o cmTC_4bfca 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e4a58/fast && /usr/bin/make  -f CMakeFiles/cmTC_e4a58.dir/build.make CMakeFiles/cmTC_e4a58.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4a58.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_e4a58.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e4a58
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4a58.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e4a58.dir/CheckIncludeFile.c.o -o cmTC_e4a58 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f0ffd/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0ffd.dir/build.make CMakeFiles/cmTC_f0ffd.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0ffd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f0ffd.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f0ffd
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ffd.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f0ffd.dir/CheckIncludeFile.c.o -o cmTC_f0ffd 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24ad3/fast && /usr/bin/make  -f CMakeFiles/cmTC_24ad3.dir/build.make CMakeFiles/cmTC_24ad3.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24ad3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_24ad3.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_24ad3
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24ad3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_24ad3.dir/CheckIncludeFile.c.o -o cmTC_24ad3 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_36492/fast && /usr/bin/make  -f CMakeFiles/cmTC_36492.dir/build.make CMakeFiles/cmTC_36492.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36492.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_36492.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_36492
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36492.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_36492.dir/CheckIncludeFile.c.o -o cmTC_36492 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1439/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1439.dir/build.make CMakeFiles/cmTC_b1439.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1439.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b1439.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b1439
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1439.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b1439.dir/CheckIncludeFile.c.o -o cmTC_b1439 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c22ab/fast && /usr/bin/make  -f CMakeFiles/cmTC_c22ab.dir/build.make CMakeFiles/cmTC_c22ab.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c22ab.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_c22ab.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c22ab
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c22ab.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c22ab.dir/CheckIncludeFile.c.o -o cmTC_c22ab 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_53b4e/fast && /usr/bin/make  -f CMakeFiles/cmTC_53b4e.dir/build.make CMakeFiles/cmTC_53b4e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53b4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_53b4e.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_53b4e
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b4e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_53b4e.dir/CheckIncludeFile.c.o -o cmTC_53b4e 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8b728/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b728.dir/build.make CMakeFiles/cmTC_8b728.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b728.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_8b728.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8b728
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b728.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8b728.dir/CheckIncludeFile.c.o -o cmTC_8b728 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb0df/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb0df.dir/build.make CMakeFiles/cmTC_eb0df.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb0df.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_eb0df.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eb0df
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb0df.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_eb0df.dir/CheckIncludeFile.c.o -o cmTC_eb0df 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d2fe3/fast && /usr/bin/make  -f CMakeFiles/cmTC_d2fe3.dir/build.make CMakeFiles/cmTC_d2fe3.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2fe3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d2fe3.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d2fe3
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2fe3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d2fe3.dir/CheckIncludeFile.c.o -o cmTC_d2fe3 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_966dc/fast && /usr/bin/make  -f CMakeFiles/cmTC_966dc.dir/build.make CMakeFiles/cmTC_966dc.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_966dc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_966dc.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_966dc
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_966dc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_966dc.dir/CheckIncludeFile.c.o -o cmTC_966dc 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b907a/fast && /usr/bin/make  -f CMakeFiles/cmTC_b907a.dir/build.make CMakeFiles/cmTC_b907a.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b907a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b907a.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b907a
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b907a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b907a.dir/CheckIncludeFile.c.o -o cmTC_b907a 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c577e/fast && /usr/bin/make  -f CMakeFiles/cmTC_c577e.dir/build.make CMakeFiles/cmTC_c577e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c577e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_c577e.dir/CheckIncludeFile.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c577e
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c577e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c577e.dir/CheckIncludeFile.c.o -o cmTC_c577e 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cmath exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_604e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_604e5.dir/build.make CMakeFiles/cmTC_604e5.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_604e5.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_604e5.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_604e5
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_604e5.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_604e5.dir/CheckIncludeFile.cxx.o -o cmTC_604e5 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cctype exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2db89/fast && /usr/bin/make  -f CMakeFiles/cmTC_2db89.dir/build.make CMakeFiles/cmTC_2db89.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2db89.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_2db89.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2db89
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2db89.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_2db89.dir/CheckIncludeFile.cxx.o -o cmTC_2db89 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cinttypes exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_59ba7/fast && /usr/bin/make  -f CMakeFiles/cmTC_59ba7.dir/build.make CMakeFiles/cmTC_59ba7.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59ba7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_59ba7.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_59ba7
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ba7.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_59ba7.dir/CheckIncludeFile.cxx.o -o cmTC_59ba7 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cfloat exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_39a3a/fast && /usr/bin/make  -f CMakeFiles/cmTC_39a3a.dir/build.make CMakeFiles/cmTC_39a3a.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39a3a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_39a3a.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_39a3a
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39a3a.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_39a3a.dir/CheckIncludeFile.cxx.o -o cmTC_39a3a 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cstdarg exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da054/fast && /usr/bin/make  -f CMakeFiles/cmTC_da054.dir/build.make CMakeFiles/cmTC_da054.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da054.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_da054.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_da054
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da054.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_da054.dir/CheckIncludeFile.cxx.o -o cmTC_da054 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cstddef exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_49930/fast && /usr/bin/make  -f CMakeFiles/cmTC_49930.dir/build.make CMakeFiles/cmTC_49930.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49930.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_49930.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_49930
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49930.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_49930.dir/CheckIncludeFile.cxx.o -o cmTC_49930 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cstdint exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c661e/fast && /usr/bin/make  -f CMakeFiles/cmTC_c661e.dir/build.make CMakeFiles/cmTC_c661e.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c661e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_c661e.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c661e
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c661e.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_c661e.dir/CheckIncludeFile.cxx.o -o cmTC_c661e 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cstdio exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5a438/fast && /usr/bin/make  -f CMakeFiles/cmTC_5a438.dir/build.make CMakeFiles/cmTC_5a438.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a438.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_5a438.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5a438
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a438.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_5a438.dir/CheckIncludeFile.cxx.o -o cmTC_5a438 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cstdlib exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e8d6b/fast && /usr/bin/make  -f CMakeFiles/cmTC_e8d6b.dir/build.make CMakeFiles/cmTC_e8d6b.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8d6b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_e8d6b.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e8d6b
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8d6b.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_e8d6b.dir/CheckIncludeFile.cxx.o -o cmTC_e8d6b 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cassert exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e07bb/fast && /usr/bin/make  -f CMakeFiles/cmTC_e07bb.dir/build.make CMakeFiles/cmTC_e07bb.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e07bb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_e07bb.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e07bb
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e07bb.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_e07bb.dir/CheckIncludeFile.cxx.o -o cmTC_e07bb 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cstring exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68b00/fast && /usr/bin/make  -f CMakeFiles/cmTC_68b00.dir/build.make CMakeFiles/cmTC_68b00.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68b00.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_68b00.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_68b00
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b00.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_68b00.dir/CheckIncludeFile.cxx.o -o cmTC_68b00 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctime exists passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8b2fd/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b2fd.dir/build.make CMakeFiles/cmTC_8b2fd.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b2fd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_8b2fd.dir/CheckIncludeFile.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_8b2fd
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2fd.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_8b2fd.dir/CheckIncludeFile.cxx.o -o cmTC_8b2fd 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STD_ISFINITE succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_edd78/fast && /usr/bin/make  -f CMakeFiles/cmTC_edd78.dir/build.make CMakeFiles/cmTC_edd78.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_edd78.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STD_ISFINITE  -fPIE -o CMakeFiles/cmTC_edd78.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_edd78
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd78.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_edd78.dir/src.cxx.o -o cmTC_edd78 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cmath>
+int main(){return std::isfinite(0);}
+Determining if the finite exist passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f5bd9/fast && /usr/bin/make  -f CMakeFiles/cmTC_f5bd9.dir/build.make CMakeFiles/cmTC_f5bd9.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5bd9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_f5bd9.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_f5bd9
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5bd9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f5bd9.dir/CheckSymbolExists.cxx.o -o cmTC_f5bd9 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __finite exist passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_74ed4/fast && /usr/bin/make  -f CMakeFiles/cmTC_74ed4.dir/build.make CMakeFiles/cmTC_74ed4.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74ed4.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_74ed4.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_74ed4
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74ed4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_74ed4.dir/CheckSymbolExists.cxx.o -o cmTC_74ed4 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __finite
+  return ((int*)(&__finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_ISNAN succeeded with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7b5c/fast && /usr/bin/make  -f CMakeFiles/cmTC_c7b5c.dir/build.make CMakeFiles/cmTC_c7b5c.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7b5c.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STD_ISNAN  -fPIE -o CMakeFiles/cmTC_c7b5c.dir/src.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7b5c
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7b5c.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_c7b5c.dir/src.cxx.o -o cmTC_c7b5c 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cmath>
+int main(){return std::isnan(0);}
+Determining if the __isnan exist passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e978b/fast && /usr/bin/make  -f CMakeFiles/cmTC_e978b.dir/build.make CMakeFiles/cmTC_e978b.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e978b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_e978b.dir/CheckSymbolExists.cxx.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e978b
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e978b.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_e978b.dir/CheckSymbolExists.cxx.o -o cmTC_e978b 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+File /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+#include <cfloat>
+#include <math.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __isnan
+  return ((int*)(&__isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of int64_t passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_755cf/fast && /usr/bin/make  -f CMakeFiles/cmTC_755cf.dir/build.make CMakeFiles/cmTC_755cf.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_755cf.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_755cf.dir/SIZEOF_INT64_T.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_755cf
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_755cf.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_755cf.dir/SIZEOF_INT64_T.c.o -o cmTC_755cf 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_247a8/fast && /usr/bin/make  -f CMakeFiles/cmTC_247a8.dir/build.make CMakeFiles/cmTC_247a8.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_247a8.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_247a8.dir/SIZEOF_LONG_LONG.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_247a8
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_247a8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_247a8.dir/SIZEOF_LONG_LONG.c.o -o cmTC_247a8 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5b8a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_5b8a5.dir/build.make CMakeFiles/cmTC_5b8a5.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b8a5.dir/SIZEOF_LONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_5b8a5.dir/SIZEOF_LONG.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_5b8a5
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b8a5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5b8a5.dir/SIZEOF_LONG.c.o -o cmTC_5b8a5 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ade4/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ade4.dir/build.make CMakeFiles/cmTC_3ade4.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ade4.dir/SIZEOF_UINT64_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_3ade4.dir/SIZEOF_UINT64_T.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT64_T.c
+Linking C executable cmTC_3ade4
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ade4.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_3ade4.dir/SIZEOF_UINT64_T.c.o -o cmTC_3ade4 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76eed/fast && /usr/bin/make  -f CMakeFiles/cmTC_76eed.dir/build.make CMakeFiles/cmTC_76eed.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76eed.dir/SIZEOF_ULONG_LONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_76eed.dir/SIZEOF_ULONG_LONG.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG_LONG.c
+Linking C executable cmTC_76eed
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76eed.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_76eed.dir/SIZEOF_ULONG_LONG.c.o -o cmTC_76eed 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a87c/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a87c.dir/build.make CMakeFiles/cmTC_0a87c.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a87c.dir/SIZEOF_ULONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0a87c.dir/SIZEOF_ULONG.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c
+Linking C executable cmTC_0a87c
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a87c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_0a87c.dir/SIZEOF_ULONG.c.o -o cmTC_0a87c 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of intptr_t passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f993/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f993.dir/build.make CMakeFiles/cmTC_8f993.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f993.dir/SIZEOF_INTPTR_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_8f993.dir/SIZEOF_INTPTR_T.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_INTPTR_T.c
+Linking C executable cmTC_8f993
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f993.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8f993.dir/SIZEOF_INTPTR_T.c.o -o cmTC_8f993 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int * passed with the following output:
+Change Dir: /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d0b3/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d0b3.dir/build.make CMakeFiles/cmTC_9d0b3.dir/build
+make[1]: Entering directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d0b3.dir/SIZEOF_INT_P.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_9d0b3.dir/SIZEOF_INT_P.c.o -c /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CheckTypeSize/SIZEOF_INT_P.c
+Linking C executable cmTC_9d0b3
+/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d0b3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9d0b3.dir/SIZEOF_INT_P.c.o -o cmTC_9d0b3 
+make[1]: Leaving directory '/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/CMakeFiles/CMakeTmp'
+
+
+

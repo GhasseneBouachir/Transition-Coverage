@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/CMakeFiles/re2-populate"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/CMakeFiles/re2-populate.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/CMakeFiles/re2-populate-complete.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-build.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-configure.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-download.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-install.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-patch.rule"
+		},
+		{
+			"file" : "/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"re2-populate"
+		],
+		"name" : "re2-populate"
+	}
+}
