@@ -13,7 +13,6 @@ vector<transSeqLang> Graph::computeLanguage(Node* n){
     string regEx="";
     string circuits ="";
     int countCircuits = 0;
-
     if(n->getSuccessors().empty())return {{"",NULL}};
     else if(find(stack.begin(), stack.end(), n->getId()) != stack.end())return {{"", n}};
     else if(find(tas.begin(), tas.end(), n->getId()) != tas.end())return getLanguage(n, true);
@@ -39,8 +38,11 @@ vector<transSeqLang> Graph::computeLanguage(Node* n){
     }
     if(countCircuits>1)circuits = "("+circuits+")*";
     if(countCircuits>0){
-        for(auto iter=n->getLanguages().begin(); iter!=n->getLanguages().end();++iter){
-            iter->first = circuits + iter->first;
+        if(n->getLanguages().size()==0)n->getLanguages().push_back({circuits, NULL});
+        else {
+            for (transSeqLang &trseqlg: n->getLanguages()) {
+                trseqlg.first = circuits + trseqlg.first;
+            }
         }
     }
     stack.pop_back();
@@ -55,7 +57,7 @@ vector<transSeqLang> Graph::computeLanguage(Node* n){
          }
          regEx.pop_back();
      }
-//     cout << regEx << endl;
+     cout << "Regex: " << regEx <<endl;
     }
     return n->getLanguages();
 };
@@ -137,18 +139,35 @@ string RandomString(int ch)
 
 // NOV: number of vertices
 void Graph::generateRandomGraph(int NOV ){
+    int nbTransitions = 0;
     for(int i=0; i<NOV;i++){
         Node * n = new Node(i);
         this->states.push_back(n);
     }
     trNode t;
-    int countEdges;
+    int nbSuccessors;
+    int nbGen = 0;
     for(int i=0; i<NOV;i++){
-        for(int j=0; j<rand()%5;j++){
-            t.first= RandomString(2).append("_");
-            t.second=this->states[rand()%NOV];
+//        srand(time(NULL));
+//        if(i < NOV - NOV*10/100)nbSuccessors =rand() % ((3 - 1) + 1 ) +1;
+//        else nbSuccessors = rand()%1;
+        nbSuccessors = rand() % ((3 - 1) + 1 ) +1;
+        if(nbGen + nbSuccessors >=NOV )break;
+        for(int j=0; j<nbSuccessors;j++) {
+            t.first = RandomString(2).append("_");
+            if (transitions.find(t.first) == transitions.end()) {
+                transitions.insert({t.first, nbTransitions});
+                nbTransitions++;
+            }
+
+            if (nbGen+1 % 5 == 0) {
+                t.second = this->states[rand() % nbGen];
+            }
+            else {
+                nbGen++;
+                t.second = this->states[nbGen];
+            }
             this->states[i]->getSuccessors().push_back(t);
-            countEdges++;
         }
     }
     this->initialNode = this->states[0];

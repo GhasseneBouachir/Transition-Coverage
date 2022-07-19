@@ -22,7 +22,7 @@ vector<string> PathGenerator::extractPaths(string regex){
 vector<string> PathGenerator::constructWord(vector<Element> exp) {
     vector<string> words;
     int nbAdd = 0;
-    for(Element e: exp){
+    for(Element &e: exp){
         if(e.star == false){
             if(words.empty())words.push_back(e.expression);
             else {
@@ -51,7 +51,6 @@ vector<string> PathGenerator::constructWord(vector<Element> exp) {
             copy.clear();
         }
     }
-
     return words;
 }
 

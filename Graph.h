@@ -29,6 +29,7 @@ public:
     inline static Tas tas;
     std::map<std::string, int> transitions;
 
+
     Graph();
     Graph(Node *initialNode);
     virtual ~Graph();
