@@ -46,13 +46,41 @@ int main() {
 //    t.second=g->states[2];
 //    g->states[4]->getSuccessors().push_back(t);
 
+    //Manual generation to test min Paths generation
+    for(int i=0; i<5;i++){
+        Node * n = new Node(i);
+        g->states.push_back(n);
+    }
+    trNode t;
+    //0
+    t.first="aa_";
+    g->transitions.insert({t.first, 0});
+    t.second=g->states[1];
+    g->states[0]->getSuccessors().push_back(t);
+    t.first="bb_";
+    g->transitions.insert({t.first, 1});
+    t.second=g->states[2];
+    g->states[0]->getSuccessors().push_back(t);
+    g->initialNode = g->states[0];
+    //1
+    t.first="cc_";
+    g->transitions.insert({t.first, 2});
+    t.second=g->states[3];
+    g->states[1]->getSuccessors().push_back(t);
+    //2
+    t.first="bb_";
+//    g->transitions.insert({t.first, 3});
+    t.second=g->states[4];
+    g->states[2]->getSuccessors().push_back(t);
 
 
 
 
-//    //Random generation
-    // Generate Random Graph with number of vertices
-    g->generateRandomGraph(100);
+
+
+////    //Random generation
+//    // Generate Random Graph with number of vertices
+//    g->generateRandomGraph(100);
 
 
     // print generated Graph
@@ -82,9 +110,12 @@ int main() {
     for(int i = 0; i < generatedPaths.size(); i++)
         std::cout << i << ": " << generatedPaths[i] << endl;
 
-    int constraints[g->transitions.size()][generatedPaths.size()] = {0};
+    int constraints[g->transitions.size()][generatedPaths.size() + g->transitions.size()] = {0};
     string transition;
-    //Charge constraints Matrix
+    string minPathsCoverage[g->transitions.size()];
+    string minPath;
+
+    //Charge constraints Matrix with paths from regex and generate minPaths
     for(int i=0; i<generatedPaths.size();i++){
         for(int j=0; j<generatedPaths[i].length(); j++){
             if(generatedPaths[i][j]=='_'){
@@ -93,6 +124,31 @@ int main() {
                 transition.push_back(generatedPaths[i][j-1]);
                 transition.push_back(generatedPaths[i][j]);
                 constraints[g->transitions[transition]][i] = 1;
+                // To add minimum paths coverage
+                minPath = generatedPaths[i].substr(0,j+1);
+                if(minPath.size() < generatedPaths[i].size()) {
+                    if(minPathsCoverage[g->transitions[transition]].empty() ){
+                        minPathsCoverage[g->transitions[transition]] = minPath;
+                    }
+                    else{
+                        if(minPathsCoverage[g->transitions[transition]].size() > minPath.size()){
+                            minPathsCoverage[g->transitions[transition]] = minPath;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Charge constaraints Matrix with min paths
+    for(int i=0; i<g->transitions.size();i++){
+        for(int j=0; j<minPathsCoverage[i].length(); j++){
+            if(minPathsCoverage[i][j]=='_'){
+                transition.clear();
+                transition.push_back(generatedPaths[i][j-2]);
+                transition.push_back(generatedPaths[i][j-1]);
+                transition.push_back(generatedPaths[i][j]);
+                constraints[g->transitions[transition]][i+generatedPaths.size()] = 1;
             }
         }
     }
@@ -105,15 +161,15 @@ int main() {
     }
 
     // Create Variables
-    std::vector<const operations_research::MPVariable*> x(generatedPaths.size());
-    for (int j = 0; j < generatedPaths.size(); ++j) {
+    std::vector<const operations_research::MPVariable*> x(generatedPaths.size() + g->transitions.size());
+    for (int j = 0; j < generatedPaths.size() + g->transitions.size(); ++j) {
         x[j] = solver->MakeIntVar(0.0, 1, "");
     }
 
     // Create the constraints.
     for (int i = 0; i < g->transitions.size(); ++i) {
         operations_research::MPConstraint* constraint = solver->MakeRowConstraint(1, generatedPaths.size(), "");
-        for (int j = 0; j < generatedPaths.size(); ++j) {
+        for (int j = 0; j < generatedPaths.size() + g->transitions.size(); ++j) {
             constraint->SetCoefficient(x[j], constraints[i][j]==1?1:0);
         }
     }
@@ -123,6 +179,10 @@ int main() {
     for (int j = 0; j < generatedPaths.size(); ++j) {
         objective->SetCoefficient(x[j], generatedPaths[j].size());
     }
+    for (int j = generatedPaths.size(); j < generatedPaths.size() + g->transitions.size(); ++j) {
+        objective->SetCoefficient(x[j], minPathsCoverage[j - generatedPaths.size()].size());
+    }
+
     objective->SetMinimization();
 
     //solver->set_time_limit(2);
@@ -135,7 +195,7 @@ int main() {
     cout << "Solution:";
     cout << "Optimal objective value = " << objective->Value();
 
-    for (int j = 0; j < generatedPaths.size(); ++j) {
+    for (int j = 0; j < generatedPaths.size() + g->transitions.size(); ++j) {
         cout << "x[" << j << "] = " << x[j]->solution_value();
     }
 

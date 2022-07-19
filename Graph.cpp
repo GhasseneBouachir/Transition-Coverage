@@ -146,7 +146,7 @@ void Graph::generateRandomGraph(int NOV ){
     }
     trNode t;
     int nbSuccessors;
-    int nbGen = 0;
+    int nbGen = 1;
     for(int i=0; i<NOV;i++){
 //        srand(time(NULL));
 //        if(i < NOV - NOV*10/100)nbSuccessors =rand() % ((3 - 1) + 1 ) +1;
@@ -159,15 +159,18 @@ void Graph::generateRandomGraph(int NOV ){
                 transitions.insert({t.first, nbTransitions});
                 nbTransitions++;
             }
-
-            if (nbGen+1 % 5 == 0) {
-                t.second = this->states[rand() % nbGen];
-            }
-            else {
-                nbGen++;
-                t.second = this->states[nbGen];
-            }
+            t.second = this->states[nbGen];
+            nbGen++;
             this->states[i]->getSuccessors().push_back(t);
+            if (i!=0 && (nbGen+1) % (20 * NOV / 100) == 0) {
+                t.first = RandomString(2).append("_");
+                if (transitions.find(t.first) == transitions.end()) {
+                    transitions.insert({t.first, nbTransitions});
+                    nbTransitions++;
+                }
+                t.second = this->states[rand() % i];
+                this->states[i]->getSuccessors().push_back(t);
+            }
         }
     }
     this->initialNode = this->states[0];
