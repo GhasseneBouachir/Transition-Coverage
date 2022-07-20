@@ -1,3 +1,0 @@
-repository='https://github.com/Mizux/Osi.git'
-module=''
-tag='origin'

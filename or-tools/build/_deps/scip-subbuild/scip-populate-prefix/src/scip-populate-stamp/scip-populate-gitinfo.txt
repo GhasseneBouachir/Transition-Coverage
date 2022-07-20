@@ -1,3 +1,0 @@
-repository='https://github.com/scipopt/scip.git'
-module=''
-tag='origin'

@@ -13,10 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.yy.cc.o.d"
   "CMakeFiles/flatzinc.dir/ortools/flatzinc/presolve.cc.o"
   "CMakeFiles/flatzinc.dir/ortools/flatzinc/presolve.cc.o.d"
+  "lib/libflatzinc.a"
   "lib/libflatzinc.pdb"
-  "lib/libflatzinc.so"
-  "lib/libflatzinc.so.9"
-  "lib/libflatzinc.so.9.3.9999"
 )
 
 # Per-language clean rules from dependency scanning.

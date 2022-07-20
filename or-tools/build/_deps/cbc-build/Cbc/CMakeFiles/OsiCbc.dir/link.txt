@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libOsiCbc.a CMakeFiles/OsiCbc.dir/src/OsiCbc/OsiCbcSolverInterface.cpp.o
-/usr/bin/ranlib ../../../lib/libOsiCbc.a

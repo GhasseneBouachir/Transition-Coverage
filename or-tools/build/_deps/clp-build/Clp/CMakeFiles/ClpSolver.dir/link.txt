@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libClpSolver.a CMakeFiles/ClpSolver.dir/src/ClpSolver.cpp.o CMakeFiles/ClpSolver.dir/src/CbcOrClpParam.cpp.o CMakeFiles/ClpSolver.dir/src/Clp_ampl.cpp.o CMakeFiles/ClpSolver.dir/src/MyEventHandler.cpp.o CMakeFiles/ClpSolver.dir/src/MyMessageHandler.cpp.o CMakeFiles/ClpSolver.dir/src/unitTest.cpp.o
-/usr/bin/ranlib ../../../lib/libClpSolver.a

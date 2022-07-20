@@ -1,3 +1,0 @@
-repository='https://github.com/Mizux/Cbc.git'
-module=''
-tag='origin'

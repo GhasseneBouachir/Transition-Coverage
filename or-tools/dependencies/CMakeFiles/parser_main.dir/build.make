@@ -92,8 +92,8 @@ parser_main_EXTERNAL_OBJECTS =
 
 bin/parser_main: CMakeFiles/parser_main.dir/ortools/flatzinc/parser_main.cc.o
 bin/parser_main: CMakeFiles/parser_main.dir/build.make
-bin/parser_main: lib/libflatzinc.so.9.3.9999
-bin/parser_main: lib/libortools.so.9.3.9999
+bin/parser_main: lib/libflatzinc.a
+bin/parser_main: lib/libortools.a
 bin/parser_main: lib/libabsl_flags_parse.a
 bin/parser_main: lib/libabsl_flags_usage.a
 bin/parser_main: lib/libabsl_flags_usage_internal.a

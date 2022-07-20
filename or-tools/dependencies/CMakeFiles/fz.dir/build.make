@@ -92,8 +92,8 @@ fz_EXTERNAL_OBJECTS =
 
 bin/fz: CMakeFiles/fz.dir/ortools/flatzinc/fz.cc.o
 bin/fz: CMakeFiles/fz.dir/build.make
-bin/fz: lib/libflatzinc.so.9.3.9999
-bin/fz: lib/libortools.so.9.3.9999
+bin/fz: lib/libflatzinc.a
+bin/fz: lib/libortools.a
 bin/fz: lib/libabsl_flags_parse.a
 bin/fz: lib/libabsl_flags_usage.a
 bin/fz: lib/libabsl_flags_usage_internal.a

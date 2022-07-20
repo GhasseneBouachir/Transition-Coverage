@@ -1,3 +1,0 @@
-repository='https://github.com/Mizux/Cgl.git'
-module=''
-tag='origin'

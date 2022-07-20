@@ -35,3 +35,5 @@ vector<transSeqLang> &Node::getLanguages()  {
 void Node::setLanguages(const vector<transSeqLang> &languages) {
     Node::languages = languages;
 }
+
+

@@ -1,3 +1,0 @@
-repository='https://github.com/protocolbuffers/protobuf.git'
-module=''
-tag='origin'

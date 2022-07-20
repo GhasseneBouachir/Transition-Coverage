@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
+  "lib/libortools.a"
   "lib/libortools.pdb"
-  "lib/libortools.so"
-  "lib/libortools.so.9"
-  "lib/libortools.so.9.3.9999"
 )
 
 # Per-language clean rules from dependency scanning.

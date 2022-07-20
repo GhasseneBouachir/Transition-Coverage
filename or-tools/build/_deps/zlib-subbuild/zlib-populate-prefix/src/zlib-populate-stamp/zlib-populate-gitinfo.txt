@@ -1,3 +1,0 @@
-repository='https://github.com/madler/ZLIB.git'
-module=''
-tag='origin'

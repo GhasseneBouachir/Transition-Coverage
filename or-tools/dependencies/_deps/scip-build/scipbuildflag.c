@@ -28,7 +28,7 @@ const char* SCIPgetBuildFlags(
    )
 {
    return " ARCH=x86_64\n\
- OSTYPE=Linux-5.13.0-52-generic\n\
+ OSTYPE=Linux-5.15.0-41-generic\n\
  COMP=GNU 9.4.0\n\
  BUILD=Release\n\
  DEBUGSOL=OFF\n\

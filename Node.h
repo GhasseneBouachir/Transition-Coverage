@@ -20,8 +20,12 @@ private:
     int id;
     vector<trNode> successors;
     vector<transSeqLang> languages;
+
+
 public:
+
     Node(int id);
+
     Node(int id, const vector <trNode> &successors, const vector <transSeqLang> &languages);
 
     int getId() const;
@@ -38,7 +42,6 @@ public:
 
     virtual ~Node();
 
-public:
 
 
 };

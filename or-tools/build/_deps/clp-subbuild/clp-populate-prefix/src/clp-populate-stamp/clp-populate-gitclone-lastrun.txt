@@ -1,3 +1,0 @@
-repository='https://github.com/Mizux/Clp.git'
-module=''
-tag='origin'

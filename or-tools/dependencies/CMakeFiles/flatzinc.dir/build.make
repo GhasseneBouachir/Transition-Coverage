@@ -180,99 +180,21 @@ flatzinc_OBJECTS = \
 # External object files for target flatzinc
 flatzinc_EXTERNAL_OBJECTS =
 
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/checker.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/cp_model_fz_solver.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/model.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.tab.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.yy.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/ortools/flatzinc/presolve.cc.o
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/build.make
-lib/libflatzinc.so.9.3.9999: lib/libortools.so.9.3.9999
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_parse.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_usage.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_usage_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_marshalling.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_reflection.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_config.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_private_handle_accessor.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_commandlineflag.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_commandlineflag_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_flags_program_name.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_distributions.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_seed_sequences.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_pool_urbg.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_randen.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_randen_hwaes.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_randen_hwaes_impl.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_randen_slow.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_platform.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_internal_seed_material.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_random_seed_gen_exception.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_raw_hash_set.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_hashtablez_sampler.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_hash.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_city.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_low_level_hash.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_leak_check.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_statusor.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_status.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_cord.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_cordz_info.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_cord_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_cordz_functions.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_exponential_biased.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_cordz_handle.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_bad_optional_access.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_bad_variant_access.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_str_format_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_synchronization.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_stacktrace.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_symbolize.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_debugging_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_demangle_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_graphcycles_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_malloc_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_time.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_civil_time.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_time_zone.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_bad_any_cast_impl.a
-lib/libflatzinc.so.9.3.9999: lib/libprotobuf.a
-lib/libflatzinc.so.9.3.9999: lib/libre2.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_strings.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_int128.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_strings_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_base.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_spinlock_wait.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_throw_delegate.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_raw_logging_internal.a
-lib/libflatzinc.so.9.3.9999: lib/libabsl_log_severity.a
-lib/libflatzinc.so.9.3.9999: lib/libCbcSolver.a
-lib/libflatzinc.so.9.3.9999: lib/libOsiCbc.a
-lib/libflatzinc.so.9.3.9999: lib/libCbc.a
-lib/libflatzinc.so.9.3.9999: lib/libCgl.a
-lib/libflatzinc.so.9.3.9999: lib/libClpSolver.a
-lib/libflatzinc.so.9.3.9999: lib/libOsiClp.a
-lib/libflatzinc.so.9.3.9999: lib/libClp.a
-lib/libflatzinc.so.9.3.9999: lib/libOsi.a
-lib/libflatzinc.so.9.3.9999: lib/libCoinUtils.a
-lib/libflatzinc.so.9.3.9999: _deps/scip-build/lib/libscip.a
-lib/libflatzinc.so.9.3.9999: lib/libz.a
-lib/libflatzinc.so.9.3.9999: CMakeFiles/flatzinc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library lib/libflatzinc.so"
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/checker.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/cp_model_fz_solver.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/model.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.tab.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/parser.yy.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/ortools/flatzinc/presolve.cc.o
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/build.make
+lib/libflatzinc.a: CMakeFiles/flatzinc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/dependencies/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library lib/libflatzinc.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/flatzinc.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flatzinc.dir/link.txt --verbose=$(VERBOSE)
-	$(CMAKE_COMMAND) -E cmake_symlink_library lib/libflatzinc.so.9.3.9999 lib/libflatzinc.so.9 lib/libflatzinc.so
-
-lib/libflatzinc.so.9: lib/libflatzinc.so.9.3.9999
-	@$(CMAKE_COMMAND) -E touch_nocreate lib/libflatzinc.so.9
-
-lib/libflatzinc.so: lib/libflatzinc.so.9.3.9999
-	@$(CMAKE_COMMAND) -E touch_nocreate lib/libflatzinc.so
 
 # Rule to build all files generated by this target.
-CMakeFiles/flatzinc.dir/build: lib/libflatzinc.so
+CMakeFiles/flatzinc.dir/build: lib/libflatzinc.a
 .PHONY : CMakeFiles/flatzinc.dir/build
 
 CMakeFiles/flatzinc.dir/clean:

@@ -28,7 +28,7 @@ public:
     inline static Stack stack;
     inline static Tas tas;
     std::map<std::string, int> transitions;
-
+    int nbPathToGenerate = 0;
 
     Graph();
     Graph(Node *initialNode);

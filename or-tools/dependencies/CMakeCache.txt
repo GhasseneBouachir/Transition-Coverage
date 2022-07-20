@@ -67,7 +67,7 @@ BUILD_PYTHON:BOOL=OFF
 BUILD_SAMPLES:BOOL=OFF
 
 //Build shared libraries (.so or .dyld).
-BUILD_SHARED_LIBS:BOOL=ON
+BUILD_SHARED_LIBS:BOOL=OFF
 
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
@@ -759,7 +759,7 @@ LPSCHECK:BOOL=OFF
 MAKECOMMAND:STRING=/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
 //Path to the memory checking command, used for memory error detection.
-MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
+MEMORYCHECK_COMMAND:FILEPATH=/usr/bin/valgrind
 
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=

@@ -2047,9 +2047,7 @@
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/Cbc/CbcConfig.cmake
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/Cbc/CbcConfigVersion.cmake
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/include/ortools_export.h
-/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libortools.so.9.3.9999
-/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libortools.so.9
-/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libortools.so
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libortools.a
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/ortools/ortoolsTargets.cmake
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/ortools/ortoolsTargets-release.cmake
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/include/ortools/scheduling/rcpsp_parser.h
@@ -2447,9 +2445,7 @@
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/ortools/ortoolsConfigVersion.cmake
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/ortools/modules/FindCbc.cmake
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/cmake/ortools/modules/FindClp.cmake
-/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libflatzinc.so.9.3.9999
-/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libflatzinc.so.9
-/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libflatzinc.so
+/home/bouachir/Desktop/GhassenePFE/Implem/or-tools/lib/libflatzinc.a
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/bin/fz
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/bin/parser_main
 /home/bouachir/Desktop/GhassenePFE/Implem/or-tools/share/minizinc/ortools/fzn_table_bool.mzn
