@@ -2,49 +2,49 @@
 #include "Node.h"
 #include "Graph.h"
 #include "PathGenerator.h"
-#include "or-tools/ortools/linear_solver/linear_solver.h"
+//#include "or-tools/ortools/linear_solver/linear_solver.h"
 
 int main() {
     Graph *g = new Graph();
-    //Manual generation
-    for(int i=0; i<5;i++){
-        Node * n = new Node(i);
-        g->states.push_back(n);
-    }
-    trNode t;
-    //0
-    t.first="a_";
-    g->transitions.insert({t.first, 0});
-    t.second=g->states[1];
-    g->states[0]->getSuccessors().push_back(t);
-    t.first="e_";
-    g->transitions.insert({t.first, 1});
-    t.second=g->states[4];
-    g->states[0]->getSuccessors().push_back(t);
-    g->initialNode = g->states[0];
-    //1
-    t.first="b_";
-    g->transitions.insert({t.first, 2});
-    t.second=g->states[2];
-    g->states[1]->getSuccessors().push_back(t);
-    //2
-    t.first="c_";
-    g->transitions.insert({t.first, 3});
-    t.second=g->states[1];
-    g->states[2]->getSuccessors().push_back(t);
-    t.first="d_";
-    g->transitions.insert({t.first, 4});
-    t.second=g->states[3];
-    g->states[2]->getSuccessors().push_back(t);
-    //3
-    t.first="e_";
-    t.second=g->states[0];
-    g->states[3]->getSuccessors().push_back(t);
-    //4
-    t.first="f_";
-    g->transitions.insert({t.first, 5});
-    t.second=g->states[2];
-    g->states[4]->getSuccessors().push_back(t);
+//    //Manual generation
+//    for(int i=0; i<5;i++){
+//        Node * n = new Node(i);
+//        g->states.push_back(n);
+//    }
+//    trNode t;
+//    //0
+//    t.first="a_";
+//    g->transitions.insert({t.first, 0});
+//    t.second=g->states[1];
+//    g->states[0]->getSuccessors().push_back(t);
+//    t.first="e_";
+//    g->transitions.insert({t.first, 1});
+//    t.second=g->states[4];
+//    g->states[0]->getSuccessors().push_back(t);
+//    g->initialNode = g->states[0];
+//    //1
+//    t.first="b_";
+//    g->transitions.insert({t.first, 2});
+//    t.second=g->states[2];
+//    g->states[1]->getSuccessors().push_back(t);
+//    //2
+//    t.first="c_";
+//    g->transitions.insert({t.first, 3});
+//    t.second=g->states[1];
+//    g->states[2]->getSuccessors().push_back(t);
+//    t.first="d_";
+//    g->transitions.insert({t.first, 4});
+//    t.second=g->states[3];
+//    g->states[2]->getSuccessors().push_back(t);
+//    //3
+//    t.first="e_";
+//    t.second=g->states[0];
+//    g->states[3]->getSuccessors().push_back(t);
+//    //4
+//    t.first="f_";
+//    g->transitions.insert({t.first, 5});
+//    t.second=g->states[2];
+//    g->states[4]->getSuccessors().push_back(t);
 
 //    //Manual generation to test min Paths generation
 //    for(int i=0; i<5;i++){
@@ -78,9 +78,9 @@ int main() {
 
 
 
-//    //Random generation
-//    // Generate Random Graph with number of vertices
-//    g->generateRandomGraph(100);
+    //Random generation
+    // Generate Random Graph with number of vertices
+    g->generateRandomGraph(500);
 
 
     // print generated Graph
@@ -96,7 +96,7 @@ int main() {
     int nb = 0;
 
     // generate regex of graph by computing the language of initial node
-    vector<transSeqLang> languages = g->computeLanguage(g->initialNode);
+    vector<transSeqLang> languages = g->computeLanguage(g->initialNode).first;
 
 
 

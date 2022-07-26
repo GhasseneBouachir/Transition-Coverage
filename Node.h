@@ -6,6 +6,7 @@
 #include <utility>
 #include <vector>
 #include <string>
+#include <map>
 
 using namespace std;
 class Node;
@@ -23,6 +24,8 @@ private:
 
 
 public:
+    //To count nbPaths
+    vector<int> nbPaths;
 
     Node(int id);
 

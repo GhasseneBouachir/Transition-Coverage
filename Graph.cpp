@@ -2,6 +2,7 @@
 #include <iostream>
 #include <algorithm>
 #include "Graph.h"
+#include <cmath>
 
 Graph::Graph() {};
 
@@ -9,21 +10,41 @@ Graph::Graph(Node *n):initialNode(n){
 }
 Graph::~Graph() = default;
 
-vector<transSeqLang> Graph::computeLanguage(Node* n){
+pair<vector<transSeqLang>, vector<int>> Graph::computeLanguage(Node* n){
+
+
     string regEx="";
     string circuits ="";
     int countCircuits = 0;
-    if(n->getSuccessors().empty())return {{"",NULL}};
-    else if(find(stack.begin(), stack.end(), n->getId()) != stack.end())return {{"", n}};
-    else if(find(tas.begin(), tas.end(), n->getId()) != tas.end())return getLanguage(n, true);
+
+    if(n->getSuccessors().empty())
+        {
+            return {{{"",NULL}},{1}};
+        }
+    else if(find(stack.begin(), stack.end(), n->getId()) != stack.end())
+        {
+            return {{{"", n}},{1}};
+        }
+    else if(find(tas.begin(), tas.end(), n->getId()) != tas.end())
+        {
+            return getLanguage(n, true);
+        }
     stack.push_back(n->getId());
     tas.insert(n->getId());
     for(trNode trn: n->getSuccessors()){
-                for(transSeqLang trLan: computeLanguage(trn.second)){
-                    n->getLanguages().push_back({trn.first+trLan.first, trLan.second});
+                auto trLanNbPaths = computeLanguage(trn.second);
+                int i=0;
+                for(transSeqLang trLan : trLanNbPaths.first) {
+                    n->getLanguages().push_back({trn.first + trLan.first, trLan.second});
+                    n->nbPaths.push_back(trLanNbPaths.second[i]);
+                    i++;
                 }
         }
+
+
     auto it = n->getLanguages().begin();
+    int i =0;
+    int countNbPaths = 1;
     while (it != n->getLanguages().end())
     {
         if (it->second!=NULL && it->second->getId()==n->getId())
@@ -31,74 +52,123 @@ vector<transSeqLang> Graph::computeLanguage(Node* n){
             countCircuits++;
             circuits += "("+it->first+")*";
             it = n->getLanguages().erase(it);
+            countNbPaths *= n->nbPaths[i] + 1;
+            n->nbPaths.erase(n->nbPaths.begin()+i);
         }
         else {
             ++it;
+            i++;
         }
     }
+
+
     if(countCircuits>1)circuits = "("+circuits+")*";
+
+
     if(countCircuits>0){
-        if(n->getLanguages().size()==0)n->getLanguages().push_back({circuits, NULL});
+        if(n->getLanguages().size()==0)
+            {
+                n->getLanguages().push_back({circuits, NULL});
+                // A tester
+                //n->nbPaths.push_back(pow(2, countCircuits));
+                n->nbPaths.push_back(countNbPaths);
+            }
         else {
+            int i =0;
             for (transSeqLang &trseqlg: n->getLanguages()) {
                 trseqlg.first = circuits + trseqlg.first;
+                //n->nbPaths[i] *= pow(2, countCircuits);
+                n->nbPaths[i] *= countNbPaths;
+                i++;
             }
         }
     }
     stack.pop_back();
+
+    //To display final regEx
     if(n->getId()==0){
-     if(n->getLanguages().size() == 0){
-         regEx = circuits;
-         n->getLanguages().push_back({circuits, NULL});
-     }
-     else {
-         for(transSeqLang lg: n->getLanguages()){
-            regEx = regEx + lg.first + "+";
+        for(int i: n->nbPaths)
+            this->nbPaths += i;
+         if(n->getLanguages().size() == 0){
+             regEx = circuits;
+             n->getLanguages().push_back({circuits, NULL});
          }
-         regEx.pop_back();
-     }
-     cout << "Regex: " << regEx <<endl;
+         else {
+             for(transSeqLang lg: n->getLanguages()){
+                regEx = regEx + lg.first + "+\n";
+             }
+             regEx.pop_back();
+             regEx.pop_back();
+         }
+        cout << "Regex: " << regEx   <<endl;
     }
-    return n->getLanguages();
+
+
+    if(n->getId() == 0)
+        cout << "nb Paths: " << this->nbPaths << endl;
+    return {n->getLanguages(), n->nbPaths};
 };
 
 
 
-vector<transSeqLang> Graph::getLanguage(Node* n, bool firstCall){
+pair<vector<transSeqLang>, vector<int>> Graph::getLanguage(Node* n, bool firstCall){
 
     string circuits ="";
     int countCircuits = 0;
     vector<transSeqLang> toAdd;
 
-    if(firstCall){
-        stack.push_back(n->getId());
-        tas.insert(n->getId());
-        auto it = n->getLanguages().begin();
-        while(it != n->getLanguages().end()){
-            if(it->second != NULL && (std::find(stack.begin(),stack.end(), it->second->getId()) == stack.end())){
-                for(transSeqLang trLan: getLanguage(it->second,false)){
-                    toAdd.push_back({it->first+trLan.first, trLan.second});
-                }
-                it = n->getLanguages().erase(it);
+    //It's an optimisation we can uncomment it but we affect the nbPaths count
+//    if(firstCall){
+//        stack.push_back(n->getId());
+//        tas.insert(n->getId());
+//
+//        auto it = n->getLanguages().begin();
+//        while(it != n->getLanguages().end()){
+//
+//            if(it->second != NULL && (std::find(stack.begin(), stack.end(), it->second->getId()) == stack.end())){
+//                for(transSeqLang trLan: getLanguage(it->second,false).first){
+//                    toAdd.push_back({it->first+trLan.first, trLan.second});
+//                }
+//                it = n->getLanguages().erase(it);
+//
+//            }
+//            else {
+//                ++it;
+//            }
+//        }
+//
+//
+//        n->getLanguages().insert(std::end(n->getLanguages()), std::begin(toAdd), std::end(toAdd));
+//    }
+//    else{
+
+        if(n->getSuccessors().empty())
+            {
+                return {{{"",NULL}},{1}};
             }
-            else ++it;
-        }
-        n->getLanguages().insert(std::end(n->getLanguages()), std::begin(toAdd), std::end(toAdd));
-    }
-    else{
-        if(n->getSuccessors().empty())return {{"",NULL}};
-        else if(find(stack.begin(), stack.end(), n->getId()) != stack.end())return {{"", n}};
+        else if(find(stack.begin(), stack.end(), n->getId()) != stack.end())
+            {
+                return {{{"", n}},{1}};
+            }
         n->getLanguages().clear();
+        n->nbPaths.clear();
         stack.push_back(n->getId());
         tas.insert(n->getId());
         for(trNode trn: n->getSuccessors()){
-            for(transSeqLang trLan: getLanguage(trn.second, false)){
-                n->getLanguages().push_back({trn.first+trLan.first, trLan.second});
+            auto trLanNbPaths = computeLanguage(trn.second);
+            int i=0;
+            for(transSeqLang trLan : trLanNbPaths.first) {
+                n->getLanguages().push_back({trn.first + trLan.first, trLan.second});
+                n->nbPaths.push_back(trLanNbPaths.second[i]);
+                i++;
             }
         }
-    }
+//    }
+
 
     auto it = n->getLanguages().begin();
+    int i =0;
+    int countNbPaths = 1;
     while (it != n->getLanguages().end())
     {
         if (it->second!=NULL && it->second->getId()==n->getId())
@@ -106,19 +176,31 @@ vector<transSeqLang> Graph::getLanguage(Node* n, bool firstCall){
             countCircuits++;
             circuits += "("+it->first+")*";
             it = n->getLanguages().erase(it);
+            countNbPaths *= n->nbPaths[i] + 1;
+            n->nbPaths.erase(n->nbPaths.begin()+i);
         }
         else {
             ++it;
+            i++;
         }
     }
+
+
     if(countCircuits>1)circuits = "("+circuits+")*";
     if(countCircuits>0){
+        int i=0;
         for(auto iter=n->getLanguages().begin(); iter!=n->getLanguages().end();++iter){
             iter->first = circuits + iter->first;
+            n->nbPaths[i] *= countNbPaths;
+            i++;
         }
     }
     stack.pop_back();
-    return n->getLanguages();
+
+
+
+
+    return {n->getLanguages(), n->nbPaths};
 }
 
 string RandomString(int ch)
